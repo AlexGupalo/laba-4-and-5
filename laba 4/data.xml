@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plants>
+    <plant id="1">
+        <photo_id>kaktus</photo_id>
+        <name>Kaktus plants</name>
+        <price>85.000</price>
+    </plant>
+    <plant id="2">
+        <photo_id>landak</photo_id>
+        <name>Landak Plants</name>
+        <price>105.000</price>
+    </plant>
+    <plant id="3">
+        <photo_id>kecubung_1</photo_id>
+        <name>Kecubung Plants</name>
+        <price>85.000</price>
+    </plant>
+    <plant id="4">
+        <photo_id>kecubung_2</photo_id>
+        <name>Kecubung Plants</name>
+        <price>85.000</price>
+    </plant>
+    <plant id="5">
+        <photo_id>kecubung_3</photo_id>
+        <name>Kecubung Plants</name>
+        <price>85.000</price>
+    </plant>
+</plants>

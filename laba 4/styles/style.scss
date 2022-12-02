@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/* all */
+*::-webkit-scrollbar {
+    display: none;
+}
+*{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+body{
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    overflow: revert;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* header */
+header{ 
+    display: flex;
+    flex-direction: row;
+}
+
+#header{
+    &_left{
+        width: 50%;
+
+        img{ 
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50% 25%;
+        }
+    }
+
+    &_right{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+        &_top{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }   
+
+        &_bottom{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1{
+                color: #156963;
+            }
+
+            p{
+                color: #2c1500;
+            }
+        }
+    }
+}
+
+/* menu */
+#help_for_nav {
+    width: 45%;
+}
+  
+nav {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav_icon{
+        color: black;
+        transition: transform 200ms ease 0s;
+    }
+
+    #log_in{
+        color: #156963;
+        font-weight: bold;
+
+        &::after{
+            display: block;
+            content: " ";
+            border-bottom: 2px solid;
+            transform: scaleX(0);
+            transition: transform 250ms ease-in-out;
+        }
+
+        &:hover::after{
+            transform: scaleX(1);
+        }
+    }
+
+    #sign_up{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: #156963;
+        transition: transform 200ms ease 0s;
+
+        &:hover, .nav_icon:hover{
+            transform: translateY(-2px);
+        }
+    }
+}
+
+/* main */
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+/* compony benefits */
+#benefits{ 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .benefits{
+        &_box{
+            border: 1px solid #e0e0e0;
+
+            &_top{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                color: #156963;
+    
+                h3{
+                    font-weight: bold;
+                    text-transform: capitalize;
+                }
+            }
+
+            &_bottom p{
+                margin: 0;
+            }
+        }
+        
+    }
+}
+
+/* featured plants */
+#featured_plants{
+    &_top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    hr{
+        border: none;
+        background-color: #e0e0e0;
+        height: 1px;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* featured plants gallary */
+#plants_gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.gallery{
+    &_item{
+        
+        #kaktus{
+            background: url("../images/featured kaktus.png"), #f3f4f6;
+            background-position: 50% 65%;
+            background-size: 185%;
+        }
+        #landak{
+            background: url("../images/featured landark.png"), #f3f4f6;
+            background-position: 50% 0%;
+            background-size: 100%;
+        }
+        #kecubung{
+            &_1{
+                background: url("../images/featured kecubung 1.png"), #f3f4f6;
+                background-position: 50% 50%;
+                background-size: 120%;
+            }
+        
+            &_2{
+                background: url("../images/featured kecubung 2.png"), #f3f4f6;
+                background-position: 50% -20%;
+                background-size: 130%;
+            }
+        
+            &_3{
+                background: url("../images/featured kecubung 3.png"), #f3f4f6;
+                background-position: 50% 0%;
+                background-size: 200%;
+            }
+        }
+
+        &_price{
+            font-weight: bold;
+            margin: 0;
+        }
+    }
+    
+}
+
+/* buy more plants */
+#buy_more{
+    display: flex;
+    flex-direction: row;
+
+    &_left{
+        width: 50%;
+        color: #2c1500;
+
+        h2{
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        p{
+            line-height: 1.75;
+        }
+
+        &_photo{
+            background: url("../images/buy more left.png");
+            background-size: 115%;
+            background-position: 30% 55%;
+        }
+    }
+
+    &_right{
+        width: 50%;
+        background: url("../images/buy more right.png");
+        background-size: 100%;
+        background-position: 50% 100%;
+    }
+}
+
+/* visit shop */
+#visit_shop{
+    display: flex;
+    flex-direction: row;
+    background-color: #f3f4f6;
+
+    &_left {
+        h2{
+            color: #2c1500;
+            line-height: 1.4;
+            margin: 0;
+        }
+        
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            background-color: #156963;
+            transition: transform 200ms ease 0s;
+
+            &:hover{
+                transform: translateY(-2px);
+            }
+        }
+    }
+
+    &_right{
+        background: url("../images/visit shop.png");
+        background-size: 95%;
+        background-position: 0% 65%;
+        transform:scaleX(-1);
+    }
+}
+
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #b9d3d1;
+    width: 100%;
+
+    h3{
+        color: #156963;
+    }
+
+    h4{
+        color: #333;
+    }
+
+    p{
+        line-height: 1.54;
+    }
+
+    form{
+        input{
+            border: none;
+        }
+
+        button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #156963;
+            border: 1px solid #156963;
+            transition: transform 200ms ease 0s;
+            color: white;
+
+            &:hover{
+                transform: translateY(-2px);
+            }
+        }
+        #mobile_button{
+            display: none;
+        }
+    }
+}
