@@ -1,0 +1,865 @@
+@media (min-width: 320px) and (max-width: 767.9px) {
+  body {
+    width: 100%;
+  }
+  /* header */
+  #header_left {
+    height: 60vw;
+  }
+  #header_right {
+    height: 60vw;
+  }
+  #header_right_top {
+    margin-top: 3vw;
+  }
+  #header_right_bottom h1 {
+    font-size: 6vw;
+  }
+  #header_right_bottom p {
+    font-size: 2.3vw;
+    max-width: 40vw;
+  }
+  /* menu */
+  #help_for_nav {
+    width: 20%;
+  }
+  nav {
+    width: 65%;
+  }
+  nav .nav_icon {
+    font-size: 2.5vw;
+  }
+  nav #sign_up {
+    height: 4vw;
+    width: 11vw;
+    border-radius: 1vw;
+    font-size: 2vw;
+  }
+  nav #log_in {
+    font-size: 2vw;
+    margin-top: 1vw;
+  }
+  /* main */
+  /* benefits */
+  .benefits_box {
+    width: 32.5%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 3vw;
+    margin-top: 10vw;
+  }
+  .benefits_box_top span {
+    font-size: 7vw;
+  }
+  .benefits_box_top h3 {
+    font-size: 3vw;
+    margin-left: 16px;
+  }
+  .benefits_box_bottom p {
+    font-size: 2.2vw;
+  }
+  #fast_delivery, #original_plants {
+    margin-left: 6vw;
+  }
+  #great_service, #affordable_price {
+    margin-right: 6vw;
+  }
+  /* featured plants */
+  #featured_plants_top h2 {
+    margin-top: 6vw;
+    margin-bottom: 1.8vw;
+    font-size: 5vw;
+  }
+  /* featured plants gallery */
+  #plants_gallery {
+    margin-top: 4vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+  }
+  .gallery_item {
+    width: 35vw;
+  }
+  .gallery_item_photo {
+    width: 35vw;
+    height: 35vw;
+  }
+  .gallery_item_name {
+    font-size: 2.5vw;
+    margin-top: 1vw;
+    margin-bottom: 2.5px;
+  }
+  .gallery_item_price {
+    font-size: 2.5vw;
+    margin-bottom: 10px;
+  }
+  /* buy more plants */
+  #buy_more {
+    margin-top: 5vw;
+  }
+  #buy_more_left h2 {
+    width: 80%;
+    font-size: 3vw;
+    margin-left: 6vw;
+  }
+  #buy_more_left p {
+    width: 80%;
+    font-size: 2vw;
+    margin-left: 6vw;
+  }
+  #buy_more_left_photo {
+    width: 83%;
+    height: 30vw;
+    margin-top: 2vw;
+    display: none;
+  }
+  #buy_more_right {
+    height: 45vw;
+    margin-right: 6vw;
+  }
+  /* visit shop */
+  #visit_shop {
+    margin-top: 5vw;
+  }
+  #visit_shop_left {
+    width: 50%;
+    margin-top: 3vw;
+    margin-left: 7vw;
+  }
+  #visit_shop_left h2 {
+    font-size: 3.5vw;
+  }
+  #visit_shop_left a {
+    height: 5vw;
+    width: 16vw;
+    border-radius: 1.5vw;
+    margin-top: 2vw;
+    font-size: 2.25vw;
+  }
+  #visit_shop_right {
+    width: 34vw;
+    height: 27vw;
+    margin-right: 0vw;
+  }
+  /* footer */
+  footer {
+    margin-top: 5vw;
+  }
+  footer div {
+    margin-top: 3vw;
+    margin-bottom: 2.25vw;
+  }
+  footer #itmo_house {
+    width: 25vw;
+    margin-left: 3vw;
+  }
+  footer #feedback {
+    width: 20vw;
+    margin-right: 5vw;
+  }
+  footer h3 {
+    font-size: 2.5vw;
+    letter-spacing: 0.2742857143px;
+    margin: 0 0 1vw 0;
+    display: none;
+  }
+  footer h4 {
+    font-size: 2.75vw;
+    margin: 0 0 1vw 0;
+  }
+  footer p {
+    font-size: 2vw;
+    margin: 0 0 1vw 0;
+  }
+  footer form input {
+    height: 5vw;
+    padding: 0 1.2vw 0 1.5vw;
+    box-shadow: 0 0 1.2vw 0.3vw rgba(0, 0, 0, 0.06);
+    border-radius: 1.5vw;
+    font-size: 1.8vw;
+    display: none;
+  }
+  footer form #main_button {
+    display: none;
+  }
+  footer form #mobile_button {
+    display: inline;
+    width: 16vw;
+    height: 5.5vw;
+    font-size: 2vw;
+    margin: 2vw 0 1.2vw 0;
+    border-radius: 1vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+  body {
+    width: 702.1714285714px;
+  }
+  /* header */
+  #header_left {
+    height: 405.9428571429px;
+  }
+  #header_right {
+    height: 405.9428571429px;
+  }
+  #header_right_top {
+    margin-top: 24.6857142857px;
+  }
+  #header_right_bottom h1 {
+    font-size: 37.3028571429px;
+  }
+  #header_right_bottom p {
+    font-size: 14px;
+    max-width: 285.2571428571px;
+  }
+  /* menu */
+  #help_for_nav {
+    width: 20%;
+  }
+  nav {
+    width: 60%;
+  }
+  nav .nav_icon {
+    font-size: 16px;
+  }
+  nav #sign_up {
+    height: 28px;
+    width: 78px;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+  nav #log_in {
+    font-size: 12px;
+  }
+  /* main */
+  /* benefits */
+  .benefits_box {
+    width: 288px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+    margin-top: 76.8px;
+  }
+  .benefits_box_top span {
+    font-size: 38px;
+  }
+  .benefits_box_top h3 {
+    font-size: 15.8px;
+    margin-left: 16px;
+  }
+  .benefits_box_bottom p {
+    font-size: 13px;
+  }
+  /* featured plants */
+  #featured_plants_top h2 {
+    margin-top: 43.8857142857px;
+    margin-bottom: 8.5028571429px;
+  }
+  /* featured plants gallery */
+  #plants_gallery {
+    margin-top: 16.4571428571px;
+  }
+  .gallery_item {
+    width: 217px;
+  }
+  .gallery_item_photo {
+    width: 217px;
+    height: 217px;
+  }
+  .gallery_item_name {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .gallery_item_price {
+    font-size: 16px;
+    margin-bottom: 16.4571428571px;
+  }
+  /* buy more plants */
+  #buy_more {
+    margin-top: 43.8857142857px;
+  }
+  #buy_more_left h2 {
+    width: 279.7714285714px;
+    font-size: 21.9428571429px;
+  }
+  #buy_more_left p {
+    width: 279.7714285714px;
+    font-size: 14px;
+  }
+  #buy_more_left_photo {
+    width: 311.5885714286px;
+    height: 137.1428571429px;
+    margin-top: 50.2491428571px;
+  }
+  #buy_more_right {
+    height: 458.78px;
+  }
+  /* visit shop */
+  #visit_shop {
+    margin-top: 43.8857142857px;
+  }
+  #visit_shop_left {
+    width: 320.9142857143px;
+    margin-top: 48.2742857143px;
+    margin-left: 53.2114285714px;
+  }
+  #visit_shop_left h2 {
+    font-size: 21.9428571429px;
+  }
+  #visit_shop_left a {
+    height: 30px;
+    width: 114px;
+    border-radius: 5px;
+    margin-top: 17.5542857143px;
+    font-size: 13px;
+  }
+  #visit_shop_right {
+    width: 220.5257142857px;
+    height: 197.4857142857px;
+    margin-left: 24.6857142857px;
+  }
+  /* footer */
+  footer {
+    margin-top: 43.8857142857px;
+  }
+  footer div {
+    margin-top: 32.9142857143px;
+    margin-bottom: 25.2342857143px;
+  }
+  footer #itmo_house {
+    width: 154.6971428571px;
+    margin-left: 40.3px;
+  }
+  footer #feedback {
+    margin-right: 0px;
+  }
+  footer h3 {
+    font-size: 18px;
+    letter-spacing: 0.6582857143px;
+    margin: 0 0 13.1657142857px 0;
+  }
+  footer h4 {
+    font-size: 14px;
+    margin: 0 0 10.9714285714px 0;
+  }
+  footer p {
+    font-size: 12px;
+    margin: 0 0 7.68px 0;
+  }
+  footer form input {
+    height: 27px;
+    padding: 0 8.2285714286px 0 5.4857142857px;
+    box-shadow: 0 0 8.2285714286px 2.1942857143px rgba(0, 0, 0, 0.06);
+    border-radius: 5.4857142857px;
+    font-size: 12px;
+  }
+  footer form button {
+    width: 60px;
+    height: 25px;
+    font-size: 12px;
+    margin: 10px 0 15px 0;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  body {
+    width: 906.9714285714px;
+  }
+  /* header */
+  #header_left {
+    height: 524.3428571429px;
+  }
+  #header_right {
+    height: 524.3428571429px;
+  }
+  #header_right_top {
+    margin-top: 31.8857142857px;
+  }
+  #header_right_bottom h1 {
+    font-size: 48.1828571429px;
+  }
+  #header_right_bottom p {
+    font-size: 12.7542857143px;
+    max-width: 368.4571428571px;
+  }
+  /* menu */
+  #help_for_nav {
+    width: 30%;
+  }
+  nav {
+    width: 55%;
+  }
+  nav .nav_icon {
+    font-size: 20px;
+  }
+  nav #sign_up {
+    height: 30px;
+    width: 85px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  nav #log_in {
+    font-size: 14px;
+  }
+  /* main */
+  /* benefits */
+  .benefits_box {
+    width: 189.8971428571px;
+    padding-left: 11.3371428571px;
+    padding-right: 11.3371428571px;
+    padding-bottom: 14.1714285714px;
+    margin-top: 99.2px;
+  }
+  .benefits_box_top span {
+    font-size: 34.0114285714px;
+  }
+  .benefits_box_top h3 {
+    font-size: 14.1714285714px;
+    margin-left: 11.3371428571px;
+  }
+  .benefits_box_bottom p {
+    font-size: 13px;
+  }
+  /* featured plants */
+  #featured_plants_top h2 {
+    margin-top: 56.6857142857px;
+    margin-bottom: 10.9828571429px;
+  }
+  /* featured plants gallery */
+  #plants_gallery {
+    margin-top: 21.2571428571px;
+  }
+  .gallery_item {
+    width: 153.76px;
+  }
+  .gallery_item_photo {
+    width: 153.76px;
+    height: 153.76px;
+  }
+  .gallery_item_name {
+    font-size: 16px;
+    margin-bottom: 5.6685714286px;
+  }
+  .gallery_item_price {
+    font-size: 16px;
+  }
+  /* buy more plants */
+  #buy_more {
+    margin-top: 56.6857142857px;
+  }
+  #buy_more_left h2 {
+    width: 361.3714285714px;
+    font-size: 28.3428571429px;
+  }
+  #buy_more_left p {
+    width: 361.3714285714px;
+    font-size: 13px;
+  }
+  #buy_more_left_photo {
+    width: 402.4685714286px;
+    height: 177.1428571429px;
+    margin-top: 64.9051428571px;
+  }
+  #buy_more_right {
+    height: 470.88px;
+  }
+  /* visit shop */
+  #visit_shop {
+    margin-top: 56.6857142857px;
+  }
+  #visit_shop_left {
+    width: 414.5142857143px;
+    margin-top: 62.3542857143px;
+    margin-left: 68.7314285714px;
+  }
+  #visit_shop_left h2 {
+    font-size: 28.3428571429px;
+  }
+  #visit_shop_left a {
+    height: 28.3428571429px;
+    width: 107.7028571429px;
+    border-radius: 3.5428571429px;
+    margin-top: 22.6742857143px;
+    font-size: 11.3371428571px;
+  }
+  #visit_shop_right {
+    width: 284.8457142857px;
+    height: 255.0857142857px;
+    margin-left: 31.8857142857px;
+  }
+  /* footer */
+  footer {
+    margin-top: 56.6857142857px;
+  }
+  footer div {
+    margin-top: 42.5142857143px;
+    margin-bottom: 32.5942857143px;
+  }
+  footer #itmo_house {
+    width: 199.8171428571px;
+    margin-left: 76.3px;
+  }
+  footer #feedback {
+    margin-right: 40px;
+  }
+  footer h3 {
+    font-size: 18px;
+    letter-spacing: 0.8502857143px;
+    margin: 0 0 17.0057142857px 0;
+  }
+  footer h4 {
+    font-size: 14px;
+    margin: 0 0 14.1714285714px 0;
+  }
+  footer p {
+    font-size: 12px;
+    margin: 0 0 9.92px 0;
+  }
+  footer form input {
+    height: 27px;
+    padding: 0 10.6285714286px 0 7.0857142857px;
+    box-shadow: 0 0 10.6285714286px 2.8342857143px rgba(0, 0, 0, 0.06);
+    border-radius: 7.0857142857px;
+    font-size: 12px;
+  }
+  footer form button {
+    width: 60px;
+    height: 25px;
+    font-size: 12px;
+    margin: 10px 0 15px 0;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399.9px) {
+  body {
+    width: 1097.1428571429px;
+  }
+  /* header */
+  #header_left {
+    height: 634.2857142857px;
+  }
+  #header_right {
+    height: 634.2857142857px;
+  }
+  #header_right_top {
+    margin-top: 38.5714285714px;
+  }
+  #header_right_bottom h1 {
+    font-size: 58.2857142857px;
+  }
+  #header_right_bottom p {
+    font-size: 18px;
+    max-width: 445.7142857143px;
+  }
+  /* menu */
+  #help_for_nav {
+    width: 40%;
+  }
+  nav {
+    width: 50%;
+  }
+  nav .nav_icon {
+    font-size: 20px;
+  }
+  nav #sign_up {
+    height: 36px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  nav #log_in {
+    font-size: 14px;
+  }
+  /* main */
+  /* benefits */
+  .benefits_box {
+    width: 229.7142857143px;
+    padding-left: 13.7142857143px;
+    padding-right: 13.7142857143px;
+    padding-bottom: 17.1428571429px;
+    margin-top: 120px;
+  }
+  .benefits_box_top span {
+    font-size: 41.1428571429px;
+  }
+  .benefits_box_top h3 {
+    font-size: 17.1428571429px;
+    margin-left: 13.7142857143px;
+  }
+  .benefits_box_bottom p {
+    font-size: 12px;
+  }
+  /* featured plants */
+  #featured_plants_top h2 {
+    margin-top: 68.5714285714px;
+    margin-bottom: 13.2857142857px;
+  }
+  /* featured plants gallery */
+  #plants_gallery {
+    margin-top: 25.7142857143px;
+  }
+  .gallery_item {
+    width: 186px;
+  }
+  .gallery_item_photo {
+    width: 186px;
+    height: 186px;
+  }
+  .gallery_item_name {
+    font-size: 13.7142857143px;
+    margin-bottom: 6.8571428571px;
+  }
+  .gallery_item_price {
+    font-size: 13.7142857143px;
+  }
+  /* buy more plants */
+  #buy_more {
+    margin-top: 68.5714285714px;
+  }
+  #buy_more_left h2 {
+    width: 437.1428571429px;
+    font-size: 34.2857142857px;
+  }
+  #buy_more_left p {
+    width: 437.1428571429px;
+    font-size: 13.7142857143px;
+  }
+  #buy_more_left_photo {
+    width: 486.8571428571px;
+    height: 214.2857142857px;
+    margin-top: 78.5142857143px;
+  }
+  #buy_more_right {
+    height: 522.8571428571px;
+  }
+  /* visit shop */
+  #visit_shop {
+    margin-top: 68.5714285714px;
+  }
+  #visit_shop_left {
+    width: 501.4285714286px;
+    margin-top: 75.4285714286px;
+    margin-left: 83.1428571429px;
+  }
+  #visit_shop_left h2 {
+    font-size: 34.2857142857px;
+  }
+  #visit_shop_left a {
+    height: 34.2857142857px;
+    width: 130.2857142857px;
+    border-radius: 4.2857142857px;
+    margin-top: 27.4285714286px;
+    font-size: 13.7142857143px;
+  }
+  #visit_shop_right {
+    width: 344.5714285714px;
+    height: 308.5714285714px;
+    margin-left: 38.5714285714px;
+  }
+  /* footer */
+  footer {
+    margin-top: 68.5714285714px;
+  }
+  footer div {
+    margin-top: 51.4285714286px;
+    margin-bottom: 39.4285714286px;
+  }
+  footer #itmo_house {
+    width: 241.7142857143px;
+    margin-left: 143.1428571429px;
+  }
+  footer #feedback {
+    width: 171.4285714286px;
+    margin-right: 143.1428571429px;
+  }
+  footer h3 {
+    font-size: 20.5714285714px;
+    letter-spacing: 1.0285714286px;
+    margin: 0 0 20.5714285714px 0;
+  }
+  footer h4 {
+    font-size: 13.7142857143px;
+    margin: 0 0 17.1428571429px 0;
+  }
+  footer p {
+    font-size: 12px;
+    margin: 0 0 12px 0;
+  }
+  footer form input {
+    height: 27.4285714286px;
+    padding: 0 12.8571428571px 0 8.5714285714px;
+    box-shadow: 0 0 12.8571428571px 3.4285714286px rgba(0, 0, 0, 0.06);
+    border-radius: 8.5714285714px;
+    font-size: 12px;
+  }
+  footer form button {
+    width: 51.4285714286px;
+    height: 21.4285714286px;
+    font-size: 10.2857142857px;
+    margin: 8.5714285714px 0 12.8571428571px 0;
+    border-radius: 4.2857142857px;
+  }
+}
+@media (min-width: 1400px) {
+  body {
+    width: 1280px;
+  }
+  /* header */
+  #header_left {
+    height: 740px;
+  }
+  #header_right {
+    height: 740px;
+  }
+  #header_right_top {
+    margin-top: 45px;
+  }
+  #header_right_bottom h1 {
+    font-size: 68px;
+  }
+  #header_right_bottom p {
+    font-size: 18px;
+    max-width: 520px;
+  }
+  /* menu */
+  nav .nav_icon {
+    font-size: 20px;
+  }
+  nav #sign_up {
+    height: 36px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  nav #log_in {
+    font-size: 14px;
+  }
+  /* main */
+  /* benefits */
+  .benefits_box {
+    width: 268px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+    margin-top: 140px;
+  }
+  .benefits_box_top span {
+    font-size: 48px;
+  }
+  .benefits_box_top h3 {
+    font-size: 20px;
+    margin-left: 16px;
+  }
+  .benefits_box_bottom p {
+    font-size: 13px;
+  }
+  /* featured plants */
+  #featured_plants_top h2 {
+    margin-top: 80px;
+    margin-bottom: 15.5px;
+  }
+  /* featured plants gallery */
+  #plants_gallery {
+    margin-top: 30px;
+  }
+  .gallery_item {
+    width: 217px;
+  }
+  .gallery_item_photo {
+    width: 217px;
+    height: 217px;
+  }
+  .gallery_item_name {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .gallery_item_price {
+    font-size: 16px;
+  }
+  /* buy more plants */
+  #buy_more {
+    margin-top: 80px;
+  }
+  #buy_more_left h2 {
+    width: 510px;
+    font-size: 40px;
+  }
+  #buy_more_left p {
+    width: 510px;
+    font-size: 16px;
+  }
+  #buy_more_left_photo {
+    width: 568px;
+    height: 250px;
+    margin-top: 91.6px;
+  }
+  #buy_more_right {
+    height: 610px;
+  }
+  /* visit shop */
+  #visit_shop {
+    margin-top: 80px;
+  }
+  #visit_shop_left {
+    width: 585px;
+    margin-top: 88px;
+    margin-left: 97px;
+  }
+  #visit_shop_left h2 {
+    font-size: 40px;
+  }
+  #visit_shop_left a {
+    height: 40px;
+    width: 152px;
+    border-radius: 5px;
+    margin-top: 32px;
+    font-size: 16px;
+  }
+  #visit_shop_right {
+    width: 402px;
+    height: 360px;
+    margin-left: 45px;
+  }
+  /* footer */
+  footer {
+    margin-top: 80px;
+  }
+  footer div {
+    margin-top: 60px;
+    margin-bottom: 46px;
+  }
+  footer #itmo_house {
+    width: 282px;
+    margin-left: 167px;
+  }
+  footer #feedback {
+    width: 200px;
+    margin-right: 167px;
+  }
+  footer h3 {
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    margin: 0 0 24px 0;
+  }
+  footer h4 {
+    font-size: 16px;
+    margin: 0 0 20px 0;
+  }
+  footer p {
+    font-size: 14px;
+    margin: 0 0 14px 0;
+  }
+  footer form input {
+    height: 32px;
+    padding: 0 15px 0 10px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  footer form button {
+    width: 60px;
+    height: 25px;
+    font-size: 12px;
+    margin: 10px 0 15px 0;
+    border-radius: 5px;
+  }
+}/*# sourceMappingURL=media_style.css.map */

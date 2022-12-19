@@ -1,0 +1,1114 @@
+$m1200: calc(1200px / 1400px);
+$m992: calc(992px / 1400px);
+$m768: calc(768px / 1400px);
+$m576: calc(576px / 1400px);
+$m320: calc(320px / 1400px);
+
+@media (min-width: 320px) and (max-width: 767.9px){
+    body {
+        width: 100%;
+    }
+
+    /* header */
+    #header {
+        &_left{
+            height: 60vw;
+        }
+        &_right{
+            height: 60vw;
+
+            &_top{
+                margin-top: 3vw;
+            }
+            &_bottom{ 
+                h1{
+                    font-size: 6vw;
+                }
+                p{
+                    font-size: 2.3vw;
+                    max-width: 40vw;
+                }
+            }
+        }
+        
+    }
+
+    /* menu */
+    #help_for_nav{ 
+        width: 20%;
+    }
+    nav{
+        width: 65%;
+        .nav_icon { 
+            font-size: 2.5vw;
+            
+        }
+    
+        #sign_up {
+            height: 4vw;
+            width: 11vw;
+            border-radius: 1vw;
+            font-size: 2vw;
+        }
+    
+        #log_in{
+            font-size: 2vw;
+            margin-top: 1vw;
+        }
+    }
+
+    
+    /* main */
+    /* benefits */
+    .benefits {
+        &_box{
+            width: 32.5%;
+            padding-left: 3vw;
+            padding-right: 3vw;
+            padding-bottom: 3vw;
+            margin-top: 10vw;
+
+            &_top{
+                span{
+                    font-size: 7vw;
+                }
+                h3{
+                    font-size: 3vw;
+                    margin-left: 16px;
+                }
+            }
+
+            &_bottom{
+                p{
+                    font-size: 2.2vw;
+                }
+            }
+        }
+    }
+    #fast_delivery, #original_plants{
+        margin-left: 6vw;
+    }
+    #great_service, #affordable_price{
+        margin-right: 6vw;
+    }
+
+    /* featured plants */
+    #featured_plants_top h2 {
+        margin-top: 6vw;
+        margin-bottom: 1.8vw;
+        font-size: 5vw;
+    }
+
+    /* featured plants gallery */
+    #plants_gallery {
+        margin-top: 4vw;
+        margin-left: 6vw;
+        margin-right: 6vw;
+    }
+
+    .gallery {
+        &_item{
+            width: 35vw;
+
+            &_photo {
+                width: 35vw;
+                height: 35vw;
+            }
+
+            &_name{
+                font-size: 2.5vw;
+                margin-top: 1vw;
+                margin-bottom: 2.5px;
+            }
+            &_price{
+                font-size: 2.5vw;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    /* buy more plants */
+    #buy_more {
+        margin-top: 5vw;
+
+        &_left{
+            h2{
+                width: 80%;
+                font-size: 3vw;
+                margin-left: 6vw;
+            }
+            p{
+                width: 80%;
+                font-size: 2vw;
+                margin-left: 6vw;
+            }
+        }
+        &_left_photo{
+            width: 83%;
+            height: 30vw;
+            margin-top: 2vw;
+            display: none;
+        }
+        &_right{
+            height: 45vw;
+            margin-right: 6vw;
+        }
+    }
+
+    /* visit shop */
+    #visit_shop {
+        margin-top: 5vw;
+
+        &_left {
+            width: 50%;
+            margin-top: 3vw;
+            margin-left: 7vw;
+
+            h2 {
+                font-size: 3.5vw;
+            }
+
+            a {
+                height: 5vw;
+                width: 16vw;
+                border-radius: 1.5vw;
+                margin-top: 2vw;
+                font-size: 2.25vw;
+            }
+        }
+
+        &_right {
+            width: 34vw;
+            height: 27vw;
+            margin-right: 0vw;
+        }
+    }
+
+    /* footer */
+    footer {
+        margin-top: 5vw;
+
+        div {
+            margin-top: 3vw;
+            margin-bottom: 2.25vw;
+        }
+
+        #itmo_house {
+            width: 25vw;
+            margin-left: 3vw;
+        }
+
+        #feedback {
+            width: 20vw;
+            margin-right: 5vw;
+        }
+
+        h3 {
+            font-size: 2.5vw;
+            letter-spacing: 1.2px * $m320;
+            margin: 0 0 1vw 0;
+            display: none;
+        }
+
+        h4 {
+            font-size: 2.75vw;
+            margin: 0 0 1vw 0;
+        }
+
+        p {
+            font-size: 2vw;
+            margin: 0 0 1vw 0;
+        }
+
+        form{
+            input {
+                height: 5vw;
+                padding: 0 1.2vw 0 1.5vw;
+                box-shadow: 0 0 1.2vw 0.3vw rgba(0, 0, 0, 0.06);
+                border-radius: 1.5vw;
+                font-size: 1.8vw;
+                display: none;
+            }
+
+            #main_button{
+                display: none;
+            } 
+            #mobile_button{
+                display: inline;
+                width: 16vw;
+                height: 5.5vw;
+                font-size: 2vw;
+                margin: 2vw 0 1.2vw 0;
+                border-radius: 1vw;
+            }
+            
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+    body {
+        width: 1280px * $m768;
+    }
+
+    /* header */
+    #header {
+        &_left{
+            height: 740px * $m768;
+        }
+        &_right{
+            height: 740px * $m768;
+
+            &_top{
+                margin-top: 45px * $m768;
+            }
+            &_bottom{ 
+                h1{
+                    font-size: 68px * $m768;
+                }
+                p{
+                    font-size: 14px;
+                    max-width: 520px * $m768;
+                }
+            }
+        }
+        
+    }
+
+    /* menu */
+    #help_for_nav{ 
+        width: 20%;
+    }
+    nav{
+        width: 60%;
+        .nav_icon { 
+            font-size: 16px;
+        }
+    
+        #sign_up {
+            height: 28px;
+            width: 78px;
+            border-radius: 5px;
+            font-size: 13px;
+        }
+    
+        #log_in{
+            font-size: 12px;
+        }
+    }
+
+    /* main */
+    /* benefits */
+    .benefits {
+        &_box{
+            width: 288px;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-bottom: 20px;
+            margin-top: 140px * $m768;
+
+            &_top{
+                span{
+                    font-size: 38px;
+                }
+                h3{
+                    font-size: 15.8px;
+                    margin-left: 16px;
+                }
+            }
+
+            &_bottom{
+                p{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    /* featured plants */
+    #featured_plants_top h2 {
+        margin-top: 80px * $m768;
+        margin-bottom: 15.5px * $m768;
+    }
+
+    /* featured plants gallery */
+    #plants_gallery {
+        margin-top: 30px * $m768;
+    }
+
+    .gallery {
+        &_item{
+            width: 217px;
+
+            &_photo {
+                width: 217px;
+                height: 217px;
+            }
+
+            &_name{
+                font-size: 16px;
+                margin-bottom: 8px;
+            }
+            &_price{
+                font-size: 16px;
+                margin-bottom: 30px * $m768;
+            }
+        }
+    }
+
+    /* buy more plants */
+    #buy_more {
+        margin-top: 80px * $m768;
+
+        &_left{
+            h2{
+                width: 510px * $m768;
+                font-size: 40px * $m768;
+            }
+            p{
+                width: 510px * $m768;
+                font-size: 14px;
+            }
+        }
+        &_left_photo{
+            width: 568px * $m768;
+            height: 250px * $m768;
+            margin-top: 91.6px * $m768;
+        }
+        &_right{
+            height: 458.78px;
+        }
+    }
+
+    /* visit shop */
+    #visit_shop {
+        margin-top: 80px * $m768;
+
+        &_left {
+            width: 585px * $m768;
+            margin-top: 88px * $m768;
+            margin-left: 97px * $m768;
+
+            h2 {
+                font-size: 40px * $m768;
+            }
+
+            a {
+                height: 30px;
+                width: 114px;
+                border-radius: 5px;
+                margin-top: 32px * $m768;
+                font-size: 13px;
+            }
+        }
+
+        &_right {
+            width: 402px * $m768;
+            height: 360px * $m768;
+            margin-left: 45px * $m768;
+        }
+    }
+
+    /* footer */
+    footer {
+        margin-top: 80px * $m768;
+
+        div {
+            margin-top: 60px * $m768;
+            margin-bottom: 46px * $m768;
+        }
+
+        #itmo_house {
+            width: 282px * $m768;
+            margin-left: 40.3px;
+        }
+
+        #feedback {
+            margin-right: 0px;
+        }
+
+        h3 {
+            font-size: 18px;
+            letter-spacing: 1.2px * $m768;
+            margin: 0 0 24px * $m768 0;
+        }
+
+        h4 {
+            font-size: 14px;
+            margin: 0 0 20px * $m768 0;
+        }
+
+        p {
+            font-size: 12px;
+            margin: 0 0 14px * $m768 0;
+        }
+
+        form{
+            input {
+                height: 27px;
+                padding: 0 15px * $m768 0 10px * $m768;
+                box-shadow: 0 0 15px * $m768 4px * $m768 rgba(0, 0, 0, 0.06);
+                border-radius: 10px * $m768;
+                font-size: 12px;
+            }
+
+            button {
+                width: 60px;
+                height: 25px;
+                font-size: 12px;
+                margin: 10px 0 15px 0;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.9px) {
+    body {
+        width: 1280px * $m992;
+    }
+
+    /* header */
+    #header {
+        &_left{
+            height: 740px* $m992;
+        }
+        &_right{
+            height: 740px* $m992;
+
+            &_top{
+                margin-top: 45px* $m992;
+            }
+            &_bottom{ 
+                h1{
+                    font-size: 68px* $m992;
+                }
+                p{
+                    font-size: 18px* $m992;
+                    max-width: 520px* $m992;
+                }
+            }
+        }
+        
+    }
+
+    /* menu */
+    #help_for_nav{ 
+        width: 30%;
+    }
+    nav{
+        width: 55%;
+        .nav_icon { 
+            font-size: 20px;
+        }
+    
+        #sign_up {
+            height: 30px;
+            width: 85px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+    
+        #log_in{
+            font-size: 14px;
+        }
+    }
+    
+    
+
+    /* main */
+    /* benefits */
+    .benefits {
+        &_box{
+            width: 268px* $m992;
+            padding-left: 16px* $m992;
+            padding-right: 16px* $m992;
+            padding-bottom: 20px* $m992;
+            margin-top: 140px * $m992;
+
+            &_top{
+                span{
+                    font-size: 48px * $m992;
+                }
+                h3{
+                    font-size: 20px * $m992;
+                    margin-left: 16px * $m992;
+                }
+            }
+
+            &_bottom{
+                p{
+                    font-size: 13px ;
+                }
+            }
+        }
+    }
+
+    /* featured plants */
+    #featured_plants_top h2 {
+        margin-top: 80px * $m992;
+        margin-bottom: 15.5px * $m992;
+    }
+
+    /* featured plants gallery */
+    #plants_gallery {
+        margin-top: 30px * $m992;
+    }
+
+    .gallery {
+        &_item{
+            width: 217px * $m992;
+
+            &_photo {
+                width: 217px * $m992;
+                height: 217px * $m992;
+            }
+
+            &_name{
+                font-size: 16px;
+                margin-bottom: 8px * $m992;
+            }
+
+            &_price{
+                font-size: 16px;
+            }
+        }
+    }
+
+    /* buy more plants */
+    #buy_more {
+        margin-top: 80px * $m992;
+
+        &_left{
+            h2{
+                width: 510px * $m992;
+                font-size: 40px * $m992;
+            }
+            p{
+                width: 510px * $m992;
+                font-size: 13px;
+            }
+        }
+        &_left_photo{
+            width: 568px * $m992;
+            height: 250px * $m992;
+            margin-top: 91.6px * $m992;
+        }
+        &_right{
+            //height: 610px * $m992;
+            height: 470.88px;
+        }
+    }
+
+    /* visit shop */
+    #visit_shop {
+        margin-top: 80px * $m992;
+
+        &_left {
+            width: 585px * $m992;
+            margin-top: 88px * $m992;
+            margin-left: 97px * $m992;
+
+            h2 {
+                font-size: 40px * $m992;
+            }
+
+            a {
+                height: 40px * $m992;
+                width: 152px * $m992;
+                border-radius: 5px * $m992;
+                margin-top: 32px * $m992;
+                font-size: 16px * $m992;
+            }
+        }
+
+        &_right {
+            width: 402px * $m992;
+            height: 360px * $m992;
+            margin-left: 45px * $m992;
+        }
+    }
+
+    /* footer */
+    footer {
+        margin-top: 80px * $m992;
+
+        div {
+            margin-top: 60px * $m992;
+            margin-bottom: 46px * $m992;
+        }
+
+        #itmo_house {
+            width: 282px * $m992;
+            margin-left: 76.3px;
+        }
+
+        #feedback {
+            margin-right: 40px;
+        }
+
+        h3 {
+            font-size: 18px;
+            letter-spacing: 1.2px * $m992;
+            margin: 0 0 24px * $m992 0;
+        }
+
+        h4 {
+            font-size: 14px;
+            margin: 0 0 20px * $m992 0;
+        }
+
+        p {
+            font-size: 12px;
+            margin: 0 0 14px * $m992 0;
+        }
+
+        form{
+            input {
+                height: 27px;
+                padding: 0 15px * $m992 0 10px * $m992;
+                box-shadow: 0 0 15px * $m992 4px * $m992 rgba(0, 0, 0, 0.06);
+                border-radius: 10px * $m992;
+                font-size: 12px;
+            }
+
+            button {
+                width: 60px;
+                height: 25px;
+                font-size: 12px;
+                margin: 10px 0 15px 0;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.9px) {
+    body {
+        width: 1280px * $m1200;
+    }
+
+    /* header */
+    #header {
+        &_left{
+            height: 740px * $m1200;
+        }
+        &_right{
+            height: 740px * $m1200;
+
+            &_top{
+                margin-top: 45px * $m1200;
+            }
+            &_bottom{ 
+                h1{
+                    font-size: 68px * $m1200;
+                }
+                p{
+                    font-size: 18px;
+                    max-width: 520px * $m1200;
+                }
+            }
+        }
+        
+    }
+
+    /* menu */
+    #help_for_nav{ 
+        width: 40%;
+    }
+    nav{
+        width: 50%;
+        .nav_icon { 
+            font-size: 20px;
+        }
+    
+        #sign_up {
+            height: 36px;
+            width: 100px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    
+        #log_in{
+            font-size: 14px;
+        }
+    }
+
+    /* main */
+    /* benefits */
+    .benefits {
+        &_box{
+            width: 268px * $m1200;
+            padding-left: 16px * $m1200;
+            padding-right: 16px * $m1200;
+            padding-bottom: 20px * $m1200;
+            margin-top: 140px * $m1200;
+
+            &_top{
+                span{
+                    font-size: 48px * $m1200;
+                }
+                h3{
+                    font-size: 20px * $m1200;
+                    margin-left: 16px * $m1200;
+                }
+            }
+
+            &_bottom{
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    /* featured plants */
+    #featured_plants_top h2 {
+        margin-top: 80px * $m1200;
+        margin-bottom: 15.5px * $m1200;
+    }
+
+    /* featured plants gallery */
+    #plants_gallery {
+        margin-top: 30px * $m1200;
+    }
+
+    .gallery {
+        &_item{
+            width: 217px * $m1200;
+
+            &_photo {
+                width: 217px * $m1200;
+                height: 217px * $m1200;
+            }
+
+            &_name{
+                font-size: 16px * $m1200;
+                margin-bottom: 8px * $m1200;
+            }
+            &_price{
+                font-size: 16px * $m1200;
+            }
+        }
+    }
+
+    /* buy more plants */
+    #buy_more {
+        margin-top: 80px * $m1200;
+
+        &_left{
+            h2{
+                width: 510px * $m1200;
+                font-size: 40px * $m1200;
+            }
+            p{
+                width: 510px * $m1200;
+                font-size: 16px * $m1200;
+            }
+        }
+        &_left_photo{
+            width: 568px * $m1200;
+            height: 250px * $m1200;
+            margin-top: 91.6px * $m1200;
+        }
+        &_right{
+            height: 610px * $m1200;
+        }
+    }
+
+    /* visit shop */
+    #visit_shop {
+        margin-top: 80px * $m1200;
+
+        &_left {
+            width: 585px * $m1200;
+            margin-top: 88px * $m1200;
+            margin-left: 97px * $m1200;
+
+            h2 {
+                font-size: 40px * $m1200;
+            }
+
+            a {
+                height: 40px * $m1200;
+                width: 152px * $m1200;
+                border-radius: 5px * $m1200;
+                margin-top: 32px * $m1200;
+                font-size: 16px * $m1200;
+            }
+        }
+
+        &_right {
+            width: 402px * $m1200;
+            height: 360px * $m1200;
+            margin-left: 45px * $m1200;
+        }
+    }
+
+    /* footer */
+    footer {
+        margin-top: 80px * $m1200;
+
+        div {
+            margin-top: 60px * $m1200;
+            margin-bottom: 46px * $m1200;
+        }
+
+        #itmo_house {
+            width: 282px * $m1200;
+            margin-left: 167px * $m1200;
+        }
+
+        #feedback {
+            width: 200px * $m1200;
+            margin-right: 167px * $m1200;
+        }
+
+        h3 {
+            font-size: 24px * $m1200;
+            letter-spacing: 1.2px * $m1200;
+            margin: 0 0 24px * $m1200 0;
+        }
+
+        h4 {
+            font-size: 16px * $m1200;
+            margin: 0 0 20px * $m1200 0;
+        }
+
+        p {
+            font-size: 14px * $m1200;
+            margin: 0 0 14px * $m1200 0;
+        }
+
+        form{
+            input {
+                height: 32px * $m1200;
+                padding: 0 15px * $m1200 0 10px * $m1200;
+                box-shadow: 0 0 15px * $m1200 4px * $m1200 rgba(0, 0, 0, 0.06);
+                border-radius: 10px * $m1200;
+                font-size: 14px * $m1200;
+            }
+
+            button {
+                width: 60px * $m1200;
+                height: 25px * $m1200;
+                font-size: 12px * $m1200;
+                margin: 10px * $m1200 0 15px * $m1200 0;
+                border-radius: 5px * $m1200;
+            }
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        width: 1280px;
+    }
+
+    /* header */
+    #header {
+        &_left{
+            height: 740px;
+        }
+        &_right{
+            height: 740px;
+
+            &_top{
+                margin-top: 45px;
+            }
+            &_bottom{ 
+                h1{
+                    font-size: 68px;
+                }
+                p{
+                    font-size: 18px;
+                    max-width: 520px;
+                }
+            }
+        }
+        
+    }
+
+    /* menu */
+    nav{
+        .nav_icon { 
+            font-size: 20px;
+        }
+    
+        #sign_up {
+            height: 36px;
+            width: 100px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    
+        #log_in{
+            font-size: 14px;
+        }
+    }
+
+    /* main */
+    /* benefits */
+    .benefits {
+        &_box{
+            width: 268px;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-bottom: 20px;
+            margin-top: 140px;
+
+            &_top{
+                span{
+                    font-size: 48px;
+                }
+                h3{
+                    font-size: 20px;
+                    margin-left: 16px;
+                }
+            }
+
+            &_bottom{
+                p{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    /* featured plants */
+    #featured_plants_top h2 {
+        margin-top: 80px;
+        margin-bottom: 15.5px;
+    }
+
+    /* featured plants gallery */
+    #plants_gallery {
+        margin-top: 30px;
+    }
+
+    .gallery {
+        &_item{
+            width: 217px;
+
+            &_photo {
+                width: 217px;
+                height: 217px;
+            }
+
+            &_name{
+                font-size: 16px;
+                margin-bottom: 8px;
+            }
+            &_price{
+                font-size: 16px;
+            }
+        }
+    }
+
+    /* buy more plants */
+    #buy_more {
+        margin-top: 80px;
+
+        &_left{
+            h2{
+                width: 510px;
+                font-size: 40px;
+            }
+            p{
+                width: 510px;
+                font-size: 16px;
+            }
+        }
+        &_left_photo{
+            width: 568px;
+            height: 250px;
+            margin-top: 91.6px;
+        }
+        &_right{
+            height: 610px;
+        }
+    }
+
+    /* visit shop */
+    #visit_shop {
+        margin-top: 80px;
+
+        &_left {
+            width: 585px;
+            margin-top: 88px;
+            margin-left: 97px;
+
+            h2 {
+                font-size: 40px;
+            }
+
+            a {
+                height: 40px;
+                width: 152px;
+                border-radius: 5px;
+                margin-top: 32px;
+                font-size: 16px;
+            }
+        }
+
+        &_right {
+            width: 402px;
+            height: 360px;
+            margin-left: 45px;
+        }
+    }
+
+    /* footer */
+    footer {
+        margin-top: 80px;
+
+        div {
+            margin-top: 60px;
+            margin-bottom: 46px;
+        }
+
+        #itmo_house {
+            width: 282px;
+            margin-left: 167px;
+        }
+
+        #feedback {
+            width: 200px;
+            margin-right: 167px;
+        }
+
+        h3 {
+            font-size: 24px;
+            letter-spacing: 1.2px;
+            margin: 0 0 24px 0;
+        }
+
+        h4 {
+            font-size: 16px;
+            margin: 0 0 20px 0;
+        }
+
+        p {
+            font-size: 14px;
+            margin: 0 0 14px 0;
+        }
+
+        form{
+            input {
+                height: 32px;
+                padding: 0 15px 0 10px;
+                box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+                border-radius: 10px;
+                font-size: 14px;
+            }
+
+            button {
+                width: 60px;
+                height: 25px;
+                font-size: 12px;
+                margin: 10px 0 15px 0;
+                border-radius: 5px;
+            }
+        }
+    }
+}
